@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>password genrator</title>
+<link rel="stylesheet" href="style.css">
+
+<style>
+.inp{
+
+border-radius: 50px;
+background-color: black;
+color: white;
+border: none;
+text-align: center;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="box">
+        <div class="box1">
+            <h1>password Genrator</h1>
+
+            <div>
+                <label for="num">Passwprd Length :</label>
+                <input type="number"  id="num" placeholder="Min Length 12" class="inp">
+            </div>
+
+            <div>
+                <input type="checkbox"  id="cheek1">
+                <label for="cheek1">Include Uppercase</label>
+            </div>
+
+            <div>
+                <input type="checkbox"  id="cheek2">
+                <label for="cheek2">Include Numbers</label>
+            </div>
+
+            <div>
+                <input type="checkbox"  id="cheek3">
+                <label for="cheek3">Include Special Characters</label>
+            </div>
+            
+            <div class="divbtn">
+                <button class="btn1">Genrate password</button>
+                <button class="btn2">Reset</button>
+            </div>
+
+            <div class="divpara">
+                <p style="text-align: center;" class="paratext">Your password will appear here</p>
+            </div>
+      
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
